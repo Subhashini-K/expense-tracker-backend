@@ -7,13 +7,11 @@ const { v4 : uuidv4 } = require('uuid') ;
 app.use(express.json());//express middleware for POST method
 
 //connect backend with database
-mongoose.connect("mongodb://localhost:27017/expenses")//returns a promise
+mongoose.connect("mongodb+srv://subhashinikumar2004:Subhashini@cluster1.pmmmj.mongodb.net/expenses")//returns a promise
 .then(()=>{
     console.log("Connected to MongoDB")
 })
-.catch(()=>{
-    console.log("cannot connect to MongoDB")
-})
+
 
 //creating a schema for DB
 const expenseSchema = new mongoose.Schema({
