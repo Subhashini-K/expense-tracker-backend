@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Subhashini",
+    "rollNo": 101,
+    "dept": "CSE",
+    "dob": "2004-01-01"
+  },
+  {
+    "name": "Shreenithi",
+    "rollNo": 102,
+    "dept": "ECE",
+    "dob": "2004-02-02"
+  },
+  {
+    "name": "Reethika",
+    "rollNo": "202301",
+    "dept": "CSE",
+    "dob": "2003-01-01"
+  },
+  {
+    "name": "Reethika",
+    "rollNo": "105",
+    "dept": "CSE",
+    "dob": "2003-01-01"
+  }
+]
